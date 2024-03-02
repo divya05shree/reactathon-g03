@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import MySideNav from './assests/pages/MySdieNav';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Login from './assests/pages/Login'; // Import the Login component
+import FeedbackForm from './assests/pages/feedback';
+import Service from './assests/pages/service';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Login />} /> 
+          <Route path="/dashboard" element={<MySideNav />} />
+          <Route path="/feedback" component={FeedbackForm} /> 
+            <Route path="/service" component={Service} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
