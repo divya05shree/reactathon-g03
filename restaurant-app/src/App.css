@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home,.service,.feedback,.menu{
   text-decoration: none;
 }
@@ -33,3 +34,68 @@ textarea {
     padding: 15px;
     margin-top: 10px;
   }
+=======
+.maincour
+{
+  margin-left: 5%;
+}
+.desert
+{
+  margin-left: 5%;
+}
+.navb
+{
+  text-align: center;
+  margin-top: 5%;
+}
+.al
+
+  {
+    margin-left: 5%;
+  }
+  .typfood {
+    margin-left: 9%;
+    margin-top: 10%;
+    width: 250px;
+    height: 300px; 
+    overflow: hidden;
+    background-color: rgb(143, 220, 124);
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center; 
+    z-index: 10;
+  }
+  .first {
+    width:  250px; 
+    height:   300px; 
+   
+   
+  }
+  .foodcard{
+    background-color: red;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .foodcard:hover .foodinfo{
+   visibility: visible;
+  }
+.foodinfo{
+position: fixed;
+background-color: #ffffff64;
+visibility: hidden;
+border: 1px solid rgb(255, 255, 255,5);
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+width: 250px;
+transition: 52ms;
+}
+
+.imgs{
+  width: 250px;
+  height: 350px;
+
+}
+>>>>>>> 9fc55d6b500629c13a5124b91f044b35cfaa673b

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import MySideNav from './assests/pages/MySdieNav';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
@@ -16,6 +17,17 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
+=======
+import './App.css';
+import Menu from './assests/pages/menu';
+
+function App() {
+  return (
+    <div className="App">
+      <Menu></Menu>
+     
+    </div>
+>>>>>>> 9fc55d6b500629c13a5124b91f044b35cfaa673b
   );
 }
 
