@@ -19,7 +19,7 @@ const ReservationPage = () => {
 
   return (
     <div className="reservation-page">
-       <MySdieNav/>
+       <MySideNav/>
       <h2>Make a Reservation</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
